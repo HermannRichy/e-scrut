@@ -27,6 +27,7 @@ const links = [
     { title: "Bureaux", href: "/dashboard/bureaux", icon: ClipboardList },
     { title: "Soumettre", href: "/dashboard/add", icon: PlusCircle },
     { title: "Admin", href: "/dashboard/admin", icon: Shield },
+    { title: "Créer délégué", href: "/dashboard/admin/register", icon: PlusCircle },
 ];
 
 export function AppSidebar() {
