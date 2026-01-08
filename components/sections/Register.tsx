@@ -77,7 +77,7 @@ export default function Register() {
     };
 
     return (
-        <section className="mx-auto flex max-w-md flex-col gap-6 px-4 py-8">
+        <section className="mx-auto min-h-screen flex justify-center items-center max-w-md flex-col gap-6 px-4 py-8">
             <form
                 onSubmit={handleSubmit(onSubmit)}
                 className="flex flex-col gap-6"
