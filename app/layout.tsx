@@ -17,7 +17,31 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "eScrut",
     description:
-        "Plateforme de suivi de scrutin en ligne sécurisée et transparente",
+        "Plateforme de suivi du scrutin en ligne. Centralisation et visualisation des résultats avec preuves (PV).",
+
+    openGraph: {
+        title: "eScrut | Suivi du scrutin",
+        description:
+            "Plateforme de suivi du scrutin en ligne avec centralisation des procès-verbaux et visualisation des résultats.",
+        type: "website",
+        locale: "fr_FR",
+        images: [
+            {
+                url: "/og-img.jpeg",
+                width: 1200,
+                height: 630,
+                alt: "eScrut – Suivi du scrutin",
+            },
+        ],
+    },
+
+    twitter: {
+        card: "summary_large_image",
+        title: "eScrut | Suivi du scrutin",
+        description:
+            "Plateforme de suivi du scrutin en ligne avec preuves et visualisation des résultats.",
+        images: ["/og-img.jpeg"],
+    },
 };
 
 export default function RootLayout({
